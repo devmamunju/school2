@@ -1,0 +1,593 @@
+@media screen and (min-width:992){
+
+    .dropdown-menu{
+
+        width: 50px;
+    }
+}
+
+
+
+.dropdown-menu {
+    width: 700px; /* Adjust the width to your preference */
+    height: 300px;
+}
+
+
+.menubar img{
+
+    height: 80px;
+    width: 100%;
+}
+
+
+.menubar2 img{
+
+    height: 80px;
+    width: 100%;
+    padding-left: 300px;
+}
+
+.banner_section .banner{
+
+    position: relative;
+}
+
+
+.allbuttton{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50% , -50%);
+}
+
+.allbuttton a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.inquary button{
+    background-color: #75ff33;
+    width: 100px; 
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    border: none;
+    text-decoration: none;
+}
+
+
+
+.apply button{
+    background-color: #f5d109;
+    width: 100px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    border: none;
+    text-decoration: none;
+}
+
+
+
+.tour button{
+    background-color: #f53505;
+    width: 150px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+color:white;
+border: none;
+text-decoration: none;
+}
+
+
+
+.vertual button{
+    background-color:rgb(14, 74, 65);
+    width: 150px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
+    border: none;
+    text-decoration: none;
+}
+
+.inquary a:hover{
+    background-color: white;
+    color:  #75ff33;
+}
+.inquary button:hover{
+    background-color: white;
+    color:  #75ff33;
+}
+
+.apply a:hover{
+    background-color: white;
+    color:  #f5d109;
+}
+.apply button:hover{
+    background-color: white;
+    color:  #f5d109;
+}
+
+.tour a:hover{
+    background-color: white;
+    color:  #f53505;
+}
+
+.tour button:hover{
+    background-color: white;
+    color:  #f53505;
+}
+
+.vertual a:hover{
+    background-color: white;
+    color: rgb(14, 74, 65);
+}
+
+.vertual button:hover{
+    background-color: white;
+    color: rgb(14, 74, 65);
+}
+/**********************************************/
+
+
+.color_box .box1{
+    height: 25px;
+    width: 384px;
+    background-color: rgb(255, 145, 0);
+ 
+}
+
+.color_box .box2{
+    height: 25px;
+    width: 384px;
+    background-color: rgb(43, 255, 0);
+
+}
+
+.color_box .box3{
+    height: 25px;
+    width: 384px;
+    background-color: rgb(255, 217, 0);
+ 
+}
+
+
+.color_box .box4{
+    height: 25px;
+    width: 384px;
+    background-color: rgb(255, 145, 0);
+    
+}
+
+.color_box .box5{
+    height: 25px;
+    width: 384px;
+    background-color: rgb(72, 255, 0);
+    
+}
+
+
+.color_box .boxset1{
+    display: flex;
+}
+
+/*****************************************************************/
+
+.color_board{
+
+    background-color: rgb(203, 247, 232);
+}
+
+
+.color_board .box{
+
+    height: 400px;
+    width: 400px;
+    background-color: rgb(6, 56, 6);
+    padding-top: 110px;
+    color: white;
+}
+
+
+
+.color_board .box1{
+
+    height: 400px;
+    width: 400px;
+    background-color: rgb(248, 248, 248);
+    padding-top: 110px;
+    border: 1px solid black;
+}
+
+.color_board h1{
+
+    border-bottom: 5px solid orange;
+    display: inline;
+
+}
+
+.color_board h3{
+
+    margin-top: 20px;
+
+
+
+}
+
+
+/******************************/
+
+.banner_slide{
+
+    background-color: rgb(182, 175, 175);
+}
+
+.banner_slide .role h2{
+
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 47px;
+    line-height: 52px;
+    font-weight: 500;
+    color: #00594d;
+    text-transform: uppercase;
+ 
+
+
+
+}
+
+.banner_slide .role span{
+
+    border-bottom: 5px solid orange;
+
+}
+
+
+.banner_slide .role p{
+
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+   font-size: 25px;
+    color: #444444;
+    padding-top: 20px;
+
+
+
+}
+
+
+/* .banner_slide img{
+
+    padding: 15px;
+    padding-bottom: 0px;
+    background-color: rgb(182, 175, 175);
+} */
+
+
+/***********************************/
+
+
+
+.logo_slide .card{
+
+    border: none !important;
+ 
+}
+
+
+.banner_slide .card{
+    border: none !important;
+    /* background-color: none !important; */
+}
+
+.banner_slide .card-title{
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;  
+}
+
+
+
+/* .video_gallery .fish{
+
+    opacity: 25%;
+} */
+
+/************************************/
+.event_section {
+    background-color: aquamarine;
+}
+
+.event_section .card{
+
+    border: none;
+}
+
+.event_section .card-body{
+
+    border: none;
+}
+
+/* .event_section .row {
+
+border: none;
+background: aqua;
+
+   
+} */
+
+.event_section h1{
+
+    padding-top: 40px;
+    
+
+
+
+}
+
+.event_section h4{
+
+   color: #05693f;
+   padding-bottom: 40px;
+    
+
+
+
+}
+
+.event_section h4{
+
+    color: #05693f;
+     
+ 
+ 
+ 
+ }
+
+.event_section button{
+
+
+    text-transform: capitalize;
+    color: white;
+    background-color: aqua;
+    padding: 10px;
+    width: 250px;
+    margin-top: 40px;
+    border: none;
+}
+
+.event_section .big{
+    text-transform: uppercase;
+    color: #00594d;
+    text-align: left;
+}
+
+
+.event_section .big1{
+    
+        font-family: "Montserrat", Helvetica, Arial, sans-serif;
+        font-size: 25px;
+        color: #444444;
+        padding-top: 5px;
+        text-align: left;
+    }
+
+    .event_section img{
+
+        padding-bottom: 0px;
+        box-sizing: border-box;
+    }
+
+
+    /******************************************************/
+
+.last_part h4{
+
+    color: #00d796;
+    padding-bottom: 10px;
+}
+
+.last_part h6{
+
+    color: white;
+    line-height: 25px;
+}
+    .last_part{
+
+        background-color:#135b49;
+    }
+
+
+    .last_part .color1{
+
+        color: #75ff33;
+    }
+
+    .last_part .color2{
+
+        color: #ffe933;
+    }
+
+    .last_part .color3{
+
+        color: #ff501d;
+    }
+
+
+    .last_part span{
+
+font-size: 20px;
+color: gray;
+
+
+    }
+
+    .last_part .fa-brands{
+
+        color: #00d796;
+    }
+
+    .last_part .fa-brands:hover{
+
+        color: gray;
+    }
+
+
+
+.three_video .card{
+
+    border: none;
+    
+}
+
+
+.color_board .card{
+
+    border: none !important;
+    
+}
+
+.color_board .card-body{
+
+    border: none;
+}
+
+
+
+
+/***************about page**************************/
+
+.about_section .about p{
+
+    text-align: justify;
+    padding-right: 20px;
+}
+
+
+
+
+/************admission*******************/
+
+.bbtn button{
+
+    height: 70px;
+    width: 438px;
+    margin-bottom: 10px;
+text-transform: uppercase;
+
+}
+
+
+.bbtn1 button{
+
+    height: 50px;
+    width: 438px;
+border: none;
+  border-top: 1px solid #8E7612;
+  border-bottom: 1px solid #8E7612;
+text-transform: uppercase;
+text-align: left;
+
+
+
+
+}
+
+
+.bbtn1 a{
+    text-decoration: none;
+    color: rgb(228, 176, 6);
+  
+}
+
+.bbtn1 button:hover{
+    background-color: #144071;
+ 
+}
+
+.bbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn1 button{
+    background-color: #956616;
+}
+
+.btn1 button:hover{
+    background-color: #144071;
+}
+
+
+.btn2 button{
+    background-color:#9e860e;
+}
+
+.btn2 button:hover{
+    background-color: #144071;
+}
+
+.btn3 button{
+    background-color: #956626;
+}
+
+.btn3 button:hover{
+    background-color: #144071;
+}
+
+
+
+
+
+
+
+.btn10 button {
+
+    background-color: #d9e7fc;
+    height: 50px;
+    width: 438px;
+    border: none;
+ 
+  border-bottom: 2px solid #8E7612;
+text-transform: capitalize;
+text-align: left;
+font-size: 20px;
+color: #8E7612;
+font-weight: bold;
+
+}
+
+
+.rules a{
+
+    text-decoration: none;
+    color: #05693f;
+}
+
+.rules li{
+    line-height: 40px;
+}
+
+
+.two_profile img{
+
+    border-radius: 50%;
+
+
+
+}
+
+.two_profile .border1 {
+
+    border-top: px solid #8e7612;
+width: 800px;
+
+
+}
