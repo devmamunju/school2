@@ -13,6 +13,34 @@
     height: 300px;
 }
 
+.menubar.activeSticky{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+   animation: fadeInDown;
+    animation-duration: .9s;
+    animation-name: tester;
+}
+@keyframes tester{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+
+.menubar.activeSticky .navbar{
+
+    background-color: greenyellow !important;
+
+
+}
+
+
 
 .menubar img{
 
@@ -590,4 +618,12 @@ font-weight: bold;
 width: 800px;
 
 
+}
+
+span {
+    color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
 }
