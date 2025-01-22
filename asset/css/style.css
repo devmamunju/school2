@@ -10,7 +10,7 @@
 
 .dropdown-menu {
     width: 700px; /* Adjust the width to your preference */
-    height: 300px;
+    height: 230px;
 }
 
 .menubar.activeSticky{
@@ -211,6 +211,7 @@ text-decoration: none;
 .color_board{
 
     background-color: rgb(203, 247, 232);
+    width: 100%;
 }
 
 
@@ -620,10 +621,66 @@ width: 800px;
 
 }
 
-span {
+.fa-solid {
     color: red;
     position: fixed;
-    bottom: 0;
+    bottom: 152px;
     right: 0;
     transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.fa-arrow-up{
+
+    border: 2px solid green;
+    height: 50px;
+    width: 50px;
+    padding-left: 14px;
+    padding-top: 10px;
+    
+    font-size: 20px;
+    border-radius: 5px;
+  visibility: hidden;
+    
+}
+
+
+
+
+
+.arrow.goup .fa-solid{
+
+    background-color: yellow;
+    visibility: visible;
+  
+    
+
+}
+
+
+.arrow.goup{
+
+    position: fixed;
+    bottom: 152px;
+    width: 100%;
+    z-index: 9999;
+   animation: fadeInDown;
+    animation-duration: .9s;
+    animation-name: tester;
+}
+@keyframes tester{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0;
+    }
+}
+
+
+.into{
+    font-size: 8px;
+    letter-spacing: 2px;
+    padding-top: 3px;
+
 }
